@@ -1,0 +1,53 @@
+type: ItemTurret
+name: Scraper
+description: Fires graphite artillery shells
+size: 3
+category: turret
+research: {
+  parent: breach
+  requirements: [
+    beryllium/400
+    graphite/200
+    silicon/500
+  ]
+}
+researchCostMultiplier: 0.05
+shootSound: artillery
+requirements: [
+ silicon/150
+  graphite/300
+  beryllium/250
+]
+coolant: {
+  type: ConsumeCoolant
+  allowGas: false
+  allowLiquid: true
+  amount: 0.1
+}
+outlineColor: 2d2f39
+targetAir: false
+targetGround: true
+reload: 120
+range: 200
+velocityRnd: 0.12
+inaccuracy: 0
+shoot: {
+  shots: 2
+  shotDelay: 0.78
+}
+ammoTypes: {
+  graphite: {
+    type: ArtilleryBulletType
+    width: 15
+    height: 25
+    speed: 2
+    lifetime: 100
+    splashDamage: 28
+    splashDamageRadius: 8
+      trailLength:35
+      trailWidth: 15
+      trailColor:b2c6d2
+      backColor: b2c6d2
+      frontColor: d3e3ed
+  }
+}
