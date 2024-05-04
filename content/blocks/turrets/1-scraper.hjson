@@ -38,7 +38,7 @@ shoot: {
 ammoTypes: {
   graphite:{
     type: BasicBulletType
-    width: 15
+    width: 25
      height: 25
     speed: 2.3
     lifetime: 120
@@ -53,10 +53,12 @@ ammoTypes: {
 oxide:{
     type: BasicBulletType
     width: 25
-     height: 30
-    speed: 1.2
+     height: 25
+inaccuracy: 0.4
+recoil: 5
+    speed: 2
     lifetime: 300
-    splashDamage: 1900
+    splashDamage: 200
     splashDamageRadius: 50
       trailLength:10
       trailWidth: 20
