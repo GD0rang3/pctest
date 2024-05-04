@@ -1,0 +1,36 @@
+type: GenericCrafter
+name: Mixer
+description: turns copper into alot of stuffy stuffy stuffs
+size: 3
+scaledHealth: 60
+squareSprite: false
+craftEffect: smeltsmoke
+outputItems: [
+ silicon/2
+ graphite/2
+ metaglass/2
+  titanium/2
+  thorium/1
+]
+consumes: {
+  items: [
+ copper/15
+  ]
+  liquids:[
+    water/1
+  ]
+}
+craftTime: 15
+category: crafting
+research: {
+  parent: core-shard
+    requirements:[
+    copper/1
+    ]
+ }
+requirements: [
+ copper/1
+]
+ambientSound: grinding
+ambientSoundVolume: 0.08
+researchCostMultiplier: 0.5
