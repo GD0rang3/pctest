@@ -1,6 +1,6 @@
 type: ItemTurret
 name: Scraper
-description: Fires graphite shots
+description: Fires medium distance shots.
 size: 3
 category: turret
 research: {
@@ -27,27 +27,45 @@ coolant: {
 outlineColor: 2d2f39
 targetAir: false
 targetGround: true
-reload: 45
+reload: 70
 range: 350
 velocityRnd: 0.12
 inaccuracy: 0
 shoot: {
   shots: 2
-  shotDelay:2
+  shotDelay:13
 }
 ammoTypes: {
-  graphite: {
+  graphite:{
     type: BasicBulletType
     width: 15
-    height: 25
-    speed: 4
-    lifetime: 100
-    splashDamage: 170
-    splashDamageRadius: 15
-      trailLength:35
-      trailWidth: 8
+     height: 25
+    speed: 2.3
+    lifetime: 120
+    splashDamage: 550
+    splashDamageRadius: 25
+      trailLength:22
+      trailWidth: 10
       trailColor:b2c6d2
       backColor: b2c6d2
       frontColor: d3e3ed
   }
+oxide:{
+    type: BasicBulletType
+    width: 25
+     height: 30
+    speed: 1.2
+    lifetime: 300
+    splashDamage: 1900
+    splashDamageRadius: 50
+      trailLength:30
+      trailWidth: 25
+      trailColor:77ba63
+      backColor: 77ba63
+      frontColor: aef099
+  }
+}
+drawer: {
+type: drawTurret
+basePrefix: reinforced-
 }
