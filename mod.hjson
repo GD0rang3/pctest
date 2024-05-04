@@ -1,0 +1,5 @@
+name: pctest
+  displayName:pctest
+  description: Mod made on my very old laptop to test spriting software Libresprite
+minGameVersion: 146
+  author: 0rang3
