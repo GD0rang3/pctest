@@ -27,23 +27,23 @@ coolant: {
 outlineColor: 2d2f39
 targetAir: false
 targetGround: true
-reload: 120
+reload: 45
 range: 200
 velocityRnd: 0.12
 inaccuracy: 0
 shoot: {
   shots: 2
-  shotDelay: 0.78
+  shotDelay:2
 }
 ammoTypes: {
   graphite: {
-    type: ArtilleryBulletType
+    type: BasicBulletType
     width: 15
     height: 25
-    speed: 2
+    speed: 4
     lifetime: 100
-    splashDamage: 28
-    splashDamageRadius: 8
+    splashDamage: 96
+    splashDamageRadius: 15
       trailLength:35
       trailWidth: 15
       trailColor:b2c6d2
