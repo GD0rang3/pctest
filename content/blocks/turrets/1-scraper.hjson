@@ -58,8 +58,9 @@ oxide:{
     lifetime: 300
     splashDamage: 1900
     splashDamageRadius: 50
-      trailLength:30
-      trailWidth: 25
+      trailLength:10
+      trailWidth: 20
+reload: 120
       trailColor:77ba63
       backColor: 77ba63
       frontColor: aef099
