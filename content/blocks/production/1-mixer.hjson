@@ -22,6 +22,7 @@ consumes: {
 }
 craftTime: 15
 category: crafting
+itemCapacity: 30
 research: {
   parent: core-shard
     requirements:[
