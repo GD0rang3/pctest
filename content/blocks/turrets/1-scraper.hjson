@@ -1,6 +1,6 @@
 type: ItemTurret
 name: Scraper
-description: Fires graphite artillery shells
+description: Fires graphite shots
 size: 3
 category: turret
 research: {
@@ -28,7 +28,7 @@ outlineColor: 2d2f39
 targetAir: false
 targetGround: true
 reload: 45
-range: 200
+range: 350
 velocityRnd: 0.12
 inaccuracy: 0
 shoot: {
@@ -42,10 +42,10 @@ ammoTypes: {
     height: 25
     speed: 4
     lifetime: 100
-    splashDamage: 96
+    splashDamage: 170
     splashDamageRadius: 15
       trailLength:35
-      trailWidth: 15
+      trailWidth: 8
       trailColor:b2c6d2
       backColor: b2c6d2
       frontColor: d3e3ed
