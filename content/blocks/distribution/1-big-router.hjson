@@ -1,0 +1,14 @@
+type: Router
+name: beeg router
+description: big router
+size: 3
+speed: 20
+health: 110
+itemCapacity: 15
+requirements: [
+  copper/1
+]
+squareSprite: false
+category: distribution
+research: router
+researchCostMultiplier: 0.5
