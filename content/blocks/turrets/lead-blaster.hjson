@@ -23,7 +23,7 @@ coolant: {
 outlineColor: 2d2f39
 targetAir: true
 targetGround: true
-reload: 70
+reload: 10
 range: 350
 velocityRnd: 0.12
 inaccuracy: 2
@@ -36,7 +36,7 @@ ammoTypes: {
     type: BasicBulletType
     width: 25
      height: 25
-    speed: 6
+    speed: 10
     lifetime: 120
     splashDamage: 900
     splashDamageRadius: 25
