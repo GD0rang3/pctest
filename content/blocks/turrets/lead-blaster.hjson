@@ -1,0 +1,50 @@
+type: ItemTurret
+name: Lead Blaster
+description: Powerful turret used for testing purposes that shoots very quickly lead missiles.
+size: 3
+category: turret
+research: {
+  parent: duo
+  requirements: [
+   lead/69
+  ]
+}
+researchCostMultiplier: 0.05
+shootSound: shootBig
+requirements: [
+ lead/1
+]
+coolant: {
+  type: ConsumeCoolant
+  allowGas: false
+  allowLiquid: true
+  amount: 0.1
+}
+outlineColor: 2d2f39
+targetAir: true
+targetGround: true
+reload: 70
+range: 350
+velocityRnd: 0.12
+inaccuracy: 2
+shoot: {
+  shots: 20
+  shotDelay:1
+}
+ammoTypes: {
+  lead:{
+    type: BasicBulletType
+    width: 25
+     height: 25
+    speed: 6
+    lifetime: 120
+    splashDamage: 900
+    splashDamageRadius: 25
+      trailLength:22
+      trailWidth: 10
+      trailColor:7e3e9e
+      backColor: 7e3e9e
+      frontColor: ba73de
+      homingPower: 1
+  }
+}
